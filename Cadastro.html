@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang-"pt-br">
+        <head>
+            <meta charset-"UTF-8">
+            <meta http-equiv-"X-UA-Compatible" Content-"IE-edge">
+            <meta naome="viewport" content="width=device-wwidth, initial-sacale=1.0">
+            <title>Cadastro-Aprovados</title>
+            <link rel="stylesheet" href="form.css">
+            <style >
+                
+
+               
+            </style>
+
+            <script>
+                alert("Prencha e verifique se seus dados estão corretos antes de enviar!")
+            </script>
+        </head>
+        
+        <body>
+            <header>
+                <nav>
+                    <ul>
+                        <a >
+                            <li>Cadastro</li>
+                        </a>
+
+                </nav>
+            </header>
+            <div class="form">
+            <form action="./index.html">
+                
+                <label for="email">Email</label>
+                <input style="display: block" id="email" type="email" name="email" placeholder="Coloque um email válido" />
+                
+                <p>
+                    <label for="telefone">Telefone/celular</label>
+                    <input style="display: block;" id="telefone" type="number" name="telefone" placeholder="Digite seu número aqui"  
+               
+                </p>
+                </p>
+
+                    <label for="password">Senha</label>
+                    <input style="display: block" id="password" type="password" name="password" placeholder="Digite sua senha aqui"/>
+
+
+                <label for="passwordconfirm">Confirme sua senha</label>
+                <input style="display: block;" id="passwordconfirm" type="password" name="passwordconfirm" placeholder="Digite sua senha novamente" />
+                <p>
+                    Qual o seu sexo:
+                </p>
+                <div class="sexopai">
+                    <div class="sexofilho">
+                        <label for="sexo">Masculino</label>
+                        <input style="display: block;" id="sexo" type="radio" name="sexo" value="Masculino" />
+                
+                        <label for="sexo">Feminino</label>
+                        <input style="display: block;" id="sexo" type="radio" name="sexo" value="Feminino" />
+                
+                        <label for="sexo">Outro</label>
+                        <input style="display: block;" id="sexo" type="radio" name="sexo" value="Outro" />
+                    </div>
+                </div>
+                <p>
+                    <label for="arquivo">Escolha um documento com foto</label>
+                    <input style="display: block;" id="arquivo" type="file" name="arquivo" />
+                </p>
+
+                <label for="data">Data de nascimento</label>
+                <input style="display: block;" id="data" type="date" name="data" />
+                <p>
+                    
+                    Grau de intrução
+                    <select style="display: block;" name="grau">
+                        <option value="inválido">Selecione seu grau de intrução </option>
+                        <option value="Analfabeto">Analfabeto</option>
+                        <option value="Ensino fundamental incompleto">Ensino fundamental incompleto</option>
+                        <option value="Ensino fundamental completo">Ensino fundamental completo</option>
+                        <option value="Ensino médio incompleto">Ensino médio incompleto</option>
+                        <option value="Ensino médio completo">Ensino médio completo</option>
+                        <option value="Graduado">Graduado</option>
+                        <option value="Pós-graduado">Pós-graduado</option>
+                        <option value="Mestrado">Mestrado</option>
+                        <option value="Doutorado">Doutorado</option>
+                        <option value="Pós-doutorado">Pós-doutorado</option>
+                    
+                    </select>
+                </p>
+
+                <label for="CheckBox">Li e concordo com os termos de uso</label> 
+                <input class="checkbox" style="display: block;" id="CheckBox" type="checkbox" name="CheckBox" />
+                
+                <div class="enviar" >  
+                    <p>
+                        
+                        <button>Cadastrar</button>
+                                                    
+                    </p>
+                </div>
+
+
+            </form>                
+            </div>
+
+            <div class="link">
+                <p>
+                   Click 
+                    <a href="./aprovados.html">
+                         AQUI
+                    </a>
+                    para Voltar
+                </p>
+            </div>
+
+        </body>
+</html>
