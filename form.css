@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+*{
+    font-family: 'Kdam Thmor Pro', sans-serif
+}
+
+body {
+    /* background-color: rgba(158, 2, 10, 0.863); */
+    background-image: url("Planodefundo.jpg");
+    background-repeat: no-repeat;
+    color: white;
+    margin: 1%;
+    
+
+}
+
+.form {
+    padding: 3% 0% 3% 25%;
+    border: 2px dotted rgba(56, 56, 56, 0.185);
+    border-radius: 8px;
+    width: auto;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.295);
+    margin-left: 20%;
+    margin-right: 20%;
+    transition: 1s;
+}
+
+.form:hover{
+    padding: 3% 0% 3% 25%;
+    border: 2px dotted rgb(0, 0, 0);
+    border-radius: 8px;
+    width: auto;
+    height: auto;
+    background-color: rgba(24, 50, 83, 0.616);
+    margin-left: 20%;
+    margin-right: 20%;
+    
+}
+
+.enviar {
+    margin: 0% 12%;
+}
+
+.link {
+    margin-left: 68%;
+}
+
+.checkbox {
+    margin-left: 15%
+}
+
+
+header{
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    width: 60%;
+}
+
+ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li{
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 30px;
+    transition: .5s;
+    font-family: 'Kdam Thmor Pro', sans-serif
+}
+
+li:hover {
+    color: rgb(51, 71, 97);
+}
